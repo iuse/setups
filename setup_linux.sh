@@ -41,7 +41,7 @@ ln -sf ~/.dotfiles/.screenrc ~/
 ln -sf ~/.dotfiles/.emacs.d ~/
 
 # Install SGI font for Terminal
-tar zxvf sgi.tgz
+tar zxvf sgi.tar.gz
 rm sgi/Scr15.pcf
 sudo mv sgi /usr/share/fonts/
 
